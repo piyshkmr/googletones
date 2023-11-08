@@ -1,8 +1,8 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import "../styles/globals.css";
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
+import "../styles/globals.css"
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
       <Component {...pageProps} />
       <Footer />
     </>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp

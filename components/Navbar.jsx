@@ -1,18 +1,19 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from "next/image"
+import Link from "next/link"
 
 const Navbar = () => {
   return (
     <nav className="shadow-md">
-      <div className="container py-2">
+      <div className="container py-4">
         <Link href={"/"}>
-          <a>
-            <Image src="/logo.svg" alt="rang" width={90} height={50} />
-          </a>
+          <div className="flex items-center cursor-pointer">
+            <Image alt=" " src={"/icon.png"} width={40} height={40} />
+            <h3 className="sm:text-xl text-lg ml-2 font-bold">Google Tones</h3>
+          </div>
         </Link>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

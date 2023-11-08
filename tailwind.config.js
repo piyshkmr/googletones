@@ -11,9 +11,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Poppins", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
       },
     },
   },
   plugins: [],
-};
+}
